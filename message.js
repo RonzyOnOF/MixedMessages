@@ -2,7 +2,7 @@ const jokes = ["Dad, can you put my shoes on?", "No, I don't think they'll fit m
 "Why can't a nose be 12 inches long? Because then it would be a foot.",
 "What does a lemon say when it answers the phone? Yellow!",
 "This graveyard looks overcrowded. People must be dying to get in.",
-"What kind of car does an egg drive?A yolkswagen.",
+"What kind of car does an egg drive? A yolkswagen.",
 "Dad, can you put the cat out?I didn't know it was on fire.",
 "How do you make 7 even? Take away the s.",
 "How does a taco say grace? Lettuce pray.",
@@ -21,8 +21,18 @@ const jokes = ["Dad, can you put my shoes on?", "No, I don't think they'll fit m
 "How does a penguin build its house? Igloos it together.",
 "How did Harry Potter get down the hill? Walking. JK! Rowling."];
 
-const le = jokes.length;
+// const le = jokes.length;
 
-console.log(le);
-console.log('nigga');
-console.log('why this shit not working');
+// console.log(le);
+
+
+// let random = Math.floor(Math.random() * 23)
+
+
+for (let i = 0; i < 3; i++) {
+    let random = Math.floor(Math.random() * 23)
+    console.log(jokes[random]);
+}
+
+
+
